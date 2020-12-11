@@ -20,7 +20,7 @@ function promiseDelay(ms) {
 
 function getBrowser() {
     if( navigator.userAgent.indexOf("Chrome") != -1 ) {
-      return "chrome";
+      return "chromium";
     } else if( navigator.userAgent.indexOf("Opera") != -1 ) {
       return "opera";
     } else if( navigator.userAgent.indexOf("MSIE") != -1 ) {
